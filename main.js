@@ -1,4 +1,4 @@
-let a=prompt("enter the reverse number");
+let a=prompt("enter number");
 let c=a;
 let result=0;
 var b;
