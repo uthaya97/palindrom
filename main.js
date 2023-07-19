@@ -1,6 +1,6 @@
-let a=prompt("enter number");
-let c=a;
-let result=0;
+var a=prompt("enter the number");
+var c=a;
+var result=0;
 var b;
 document.write("enter number:&nbsp;&nbsp;"+a+"<br>");
 while(a>0)
@@ -13,8 +13,8 @@ while(a>0)
 }
 if(result==c)
 {
-	document.write("palindrome");
+	document.write("This number is palindrom");
 }
 else{
-document.write("not palindrome");
+document.write("This number is not palindrom");
 }
